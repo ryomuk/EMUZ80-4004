@@ -28,5 +28,12 @@ Youtubeで関連動画を公開しています．
 - [The Macroassembler AS](http://john.ccac.rwth-aachen.de:8000/as/)
 - [Microchip MPLAB IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 
+## 参考にした文献，サイト等 (敬称略, 順不同)
+- vintagechips, [emuz80](https://github.com/vintagechips/emuz80)
+- vintagechips, [EMUZ80が完成](https://vintagechips.wordpress.com/2022/03/05/emuz80_reference/)
+- satoshiokue, [EMUZ80-6502](https://github.com/satoshiokue/EMUZ80-6502)． 他，各種メザニンボード
+- Gazelle, EMUZ80用ファームウェアmain_cpz.c
+- kanpapa, [emu1802](https://github.com/kanpapa/emu1802)
+
 ## 更新履歴
 - 2023/5/23: 初版公開
