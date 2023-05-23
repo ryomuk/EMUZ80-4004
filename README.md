@@ -12,9 +12,9 @@ This document is written mostly in Japanese. If necessary, please use a translat
 プログラムメモリ領域のRAMは実装しておらず，データ用メモリ(4002)も2つしか搭載していないので，test4004よりも小規模なシステムですが，とりあえずデモプログラムとして電卓が動作しています．
 
 ## このレポジトリの内容
-- hardware/rev0.1 : KiCad 7用のファイル一式
-- src/PIC/emuz80_4004.X : MPLAB IDE用のプロジェクトフォルダ
-- src/demo/calc : 電卓のデモプログラム
+- hardware/rev0.1 : メザニンボード作成用ファイル一式(KiCad 7用)
+- src/PIC/emuz80_4004.X : PIC用ファームウェア(MPLAB IDE用のプロジェクトフォルダ)
+- src/demo/calc : 電卓のデモプログラム(4004アセンブラ)
 
 ## 動画
 Youtubeで関連動画を公開しています．
