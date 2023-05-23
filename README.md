@@ -6,7 +6,7 @@ This document is written mostly in Japanese. If necessary, please use a translat
 ![](images/title.jpg)
 
 ## 概要
-電脳伝説さん(@vintagechips)のEMUZ80(https://github.com/vintagechips/emuz80)のZ80をIntel4004に差し替えるための基板とPIC用ファームウェア，4004用のデモプログラム(電卓)です．
+電脳伝説さん(@vintagechips)のEMUZ80( https://github.com/vintagechips/emuz80 )のZ80をIntel4004に差し替えるための基板とPIC用ファームウェア，4004用のデモプログラム(電卓)です．
 
 ## このレポジトリの内容
 - hardware/rev0.1 KiCad 7用のファイル一式
