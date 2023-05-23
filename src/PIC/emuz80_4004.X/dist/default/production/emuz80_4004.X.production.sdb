@@ -1,0 +1,394 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47Q43 ]
+[d frameptr 1249 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"74 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc1.c
+[v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc2.c
+[v _CLC2_Initialize CLC2_Initialize `(v  1 e 1 0 ]
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc3.c
+[v _CLC3_Initialize CLC3_Initialize `(v  1 e 1 0 ]
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc4.c
+[v _CLC4_Initialize CLC4_Initialize `(v  1 e 1 0 ]
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc5.c
+[v _CLC5_Initialize CLC5_Initialize `(v  1 e 1 0 ]
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc7.c
+[v _CLC7_Initialize CLC7_Initialize `(v  1 e 1 0 ]
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc8.c
+[v _CLC8_Initialize CLC8_Initialize `(v  1 e 1 0 ]
+"52 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"74
+[v _Default_ISR Default_ISR `IIH(v  1 e 1 0 ]
+"50 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"66
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"82
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/nco1.c
+[v _NCO1_Initialize NCO1_Initialize `(v  1 e 1 0 ]
+"55 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"1280 C:/Users/ryom/.mchp_packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8\pic\include\proc\pic18f47q43.h
+[v _PMD0 PMD0 `VEuc  1 e 1 @96 ]
+"1337
+[v _PMD1 PMD1 `VEuc  1 e 1 @97 ]
+"1399
+[v _PMD3 PMD3 `VEuc  1 e 1 @99 ]
+"1450
+[v _PMD4 PMD4 `VEuc  1 e 1 @100 ]
+"1506
+[v _PMD5 PMD5 `VEuc  1 e 1 @101 ]
+"1557
+[v _PMD6 PMD6 `VEuc  1 e 1 @102 ]
+"1619
+[v _PMD7 PMD7 `VEuc  1 e 1 @103 ]
+"1681
+[v _PMD8 PMD8 `VEuc  1 e 1 @104 ]
+"5140
+[v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
+"5210
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5350
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"5390
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"5448
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5650
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"6339
+[v _CLCDATA CLCDATA `VEuc  1 e 1 @212 ]
+"6401
+[v _CLCSELECT CLCSELECT `VEuc  1 e 1 @213 ]
+"6441
+[v _CLCnCON CLCnCON `VEuc  1 e 1 @214 ]
+"6511
+[v _CLCnPOL CLCnPOL `VEuc  1 e 1 @215 ]
+"6556
+[v _CLCnSEL0 CLCnSEL0 `VEuc  1 e 1 @216 ]
+"6626
+[v _CLCnSEL1 CLCnSEL1 `VEuc  1 e 1 @217 ]
+"6696
+[v _CLCnSEL2 CLCnSEL2 `VEuc  1 e 1 @218 ]
+"6766
+[v _CLCnSEL3 CLCnSEL3 `VEuc  1 e 1 @219 ]
+"6836
+[v _CLCnGLS0 CLCnGLS0 `VEuc  1 e 1 @220 ]
+"6898
+[v _CLCnGLS1 CLCnGLS1 `VEuc  1 e 1 @221 ]
+"6960
+[v _CLCnGLS2 CLCnGLS2 `VEuc  1 e 1 @222 ]
+"7022
+[v _CLCnGLS3 CLCnGLS3 `VEuc  1 e 1 @223 ]
+"10100
+[v _RD2PPS RD2PPS `VEuc  1 e 1 @539 ]
+"10156
+[v _RD3PPS RD3PPS `VEuc  1 e 1 @540 ]
+"15026
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @646 ]
+"15158
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @647 ]
+"15290
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @648 ]
+"15422
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @649 ]
+"38668
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"38730
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"38792
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"38854
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"38916
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"39164
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"39226
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"39288
+[v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
+"39350
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
+"39412
+[v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
+"39660
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"39722
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"39784
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"39846
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"39908
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"40156
+[v _ANSELD ANSELD `VEuc  1 e 1 @1048 ]
+"40218
+[v _WPUD WPUD `VEuc  1 e 1 @1049 ]
+"40280
+[v _ODCOND ODCOND `VEuc  1 e 1 @1050 ]
+"40342
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @1051 ]
+"40404
+[v _INLVLD INLVLD `VEuc  1 e 1 @1052 ]
+"40466
+[v _ANSELE ANSELE `VEuc  1 e 1 @1056 ]
+"40498
+[v _WPUE WPUE `VEuc  1 e 1 @1057 ]
+"40536
+[v _ODCONE ODCONE `VEuc  1 e 1 @1058 ]
+"40568
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @1059 ]
+"40600
+[v _INLVLE INLVLE `VEuc  1 e 1 @1060 ]
+"40710
+[v _NCO1ACCL NCO1ACCL `VEuc  1 e 1 @1088 ]
+"40838
+[v _NCO1ACCH NCO1ACCH `VEuc  1 e 1 @1089 ]
+"40966
+[v _NCO1ACCU NCO1ACCU `VEuc  1 e 1 @1090 ]
+"41055
+[v _NCO1INCL NCO1INCL `VEuc  1 e 1 @1091 ]
+"41183
+[v _NCO1INCH NCO1INCH `VEuc  1 e 1 @1092 ]
+"41311
+[v _NCO1INCU NCO1INCU `VEuc  1 e 1 @1093 ]
+"41391
+[v _NCO1CON NCO1CON `VEuc  1 e 1 @1094 ]
+[s S75 . 1 `uc 1 PFM 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 POL 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"41414
+[s S82 . 1 `uc 1 NCO1PFM 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 NCO1POL 1 0 :1:4 
+`uc 1 NCO1OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 NCO1EN 1 0 :1:7 
+]
+"41414
+[u S89 . 1 `S75 1 . 1 0 `S82 1 . 1 0 ]
+"41414
+"41414
+[v _NCO1CONbits NCO1CONbits `VES89  1 e 1 @1094 ]
+"41459
+[v _NCO1CLK NCO1CLK `VEuc  1 e 1 @1095 ]
+"43395
+[v _IVTLOCK IVTLOCK `VEuc  1 e 1 @1113 ]
+[s S403 . 1 `uc 1 IVTLOCKED 1 0 :1:0 
+]
+"43405
+[u S405 . 1 `S403 1 . 1 0 ]
+"43405
+"43405
+[v _IVTLOCKbits IVTLOCKbits `VES405  1 e 1 @1113 ]
+"43601
+[v _IVTBASEL IVTBASEL `VEuc  1 e 1 @1117 ]
+"43663
+[v _IVTBASEH IVTBASEH `VEuc  1 e 1 @1118 ]
+"43725
+[v _IVTBASEU IVTBASEU `VEuc  1 e 1 @1119 ]
+"47204
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+[s S488 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"47221
+[u S497 . 1 `S488 1 . 1 0 ]
+"47221
+"47221
+[v _LATAbits LATAbits `VES497  1 e 1 @1214 ]
+"47266
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"47328
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+[s S445 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"47345
+[u S454 . 1 `S445 1 . 1 0 ]
+"47345
+"47345
+[v _LATCbits LATCbits `VES454  1 e 1 @1216 ]
+"47390
+[v _LATD LATD `VEuc  1 e 1 @1217 ]
+"47452
+[v _LATE LATE `VEuc  1 e 1 @1218 ]
+"47484
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"47546
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+"47608
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+"47670
+[v _TRISD TRISD `VEuc  1 e 1 @1225 ]
+"47732
+[v _TRISE TRISE `VEuc  1 e 1 @1226 ]
+"47826
+[v _PORTB PORTB `VEuc  1 e 1 @1231 ]
+[s S466 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"47967
+[u S475 . 1 `S466 1 . 1 0 ]
+"47967
+"47967
+[v _PORTDbits PORTDbits `VES475  1 e 1 @1233 ]
+[s S375 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"48070
+[s S383 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"48070
+[u S386 . 1 `S375 1 . 1 0 `S383 1 . 1 0 ]
+"48070
+"48070
+[v _INTCON0bits INTCON0bits `VES386  1 e 1 @1238 ]
+"49083
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @1272 ]
+"53220
+[v _GIE GIE `VEb  1 e 0 @9911 ]
+"72 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\main.c
+[v _cmrom cmrom `uc  1 e 1 0 ]
+[v _opr opr `uc  1 e 1 0 ]
+[v _opa opa `uc  1 e 1 0 ]
+"73
+[v _address_l address_l `uc  1 e 1 0 ]
+"203
+[v _rom rom `C[4096]uc  1 e 4096 @65536 ]
+"74
+[v _main main `(v  1 e 1 0 ]
+{
+"188
+} 0
+"50 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"64
+} 0
+"82
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"100
+} 0
+"55 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"137
+} 0
+"66 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/nco1.c
+[v _NCO1_Initialize NCO1_Initialize `(v  1 e 1 0 ]
+{
+"81
+} 0
+"52 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+[v INTERRUPT_Initialize@state state `a  1 a 1 0 ]
+"72
+} 0
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc8.c
+[v _CLC8_Initialize CLC8_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc7.c
+[v _CLC7_Initialize CLC7_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc5.c
+[v _CLC5_Initialize CLC5_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc4.c
+[v _CLC4_Initialize CLC4_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc3.c
+[v _CLC3_Initialize CLC3_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc2.c
+[v _CLC2_Initialize CLC2_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"58 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/clc1.c
+[v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"74 D:\wks\ework\PIC\EMUZ80-4004\emuz80_4004.X\mcc_generated_files/interrupt_manager.c
+[v _Default_ISR Default_ISR `IIH(v  1 e 1 0 ]
+{
+"76
+} 0
