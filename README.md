@@ -3,6 +3,8 @@
 
 This document is written mostly in Japanese. If necessary, please use a translation service such as DeepL (I recommend this) or Google.
 
+![](images/title.jpg)
+
 ## 概要
 EMUZ80( https://github.com/vintagechips/emuz80 )のZ80を4004に差し替えるためのメザニンボード，PIC用ファームウェア，デモプログラム(電卓)です．
 
