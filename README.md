@@ -6,14 +6,15 @@ This document is written mostly in Japanese. If necessary, please use a translat
 ![](images/title.jpg)
 
 ## 概要
-電脳伝説さん(@vintagechips)のEMUZ80( https://github.com/vintagechips/emuz80 )のZ80をIntel4004に差し替えるための基板,PIC用ファームウェア，4004用のデモプログラム(電卓)です．
-test4004( https://github.com/ryomuk/test4004 )の4289とROMの機能をPIC上に実装しました．
+電脳伝説さん(@vintagechips)のEMUZ80( https://github.com/vintagechips/emuz80 )のZ80をIntel4004に差し替えるための基板(メザニンボード)，PIC用ファームウェア，4004用のデモプログラム(電卓)です．
+
+別レポジトリにある4004評価ボード(test4004 https://github.com/ryomuk/test4004 )の4289とROMの機能をPIC上に実装したような作りになっています．
 プログラムメモリ領域のRAMは実装しておらず，データ用メモリ(4002)も2つしか搭載していないので，test4004よりも小規模なシステムになっています．デモプログラムとして電卓は動作しています．
 
 ## このレポジトリの内容
-- hardware/rev0.1 : KiCad 7用のファイル一式
-- src/PIC/emuz80_4004.X : MPLAB IDE用のプロジェクトフォルダ
-- src/demo/calc : 電卓のデモプログラム
+- https://github.com/ryomuk/EMUZ80-4004/hardware/rev0.1 : KiCad 7用のファイル一式
+- https://github.com/ryomuk/EMUZ80-4004/src/PIC/emuz80_4004.X : MPLAB IDE用のプロジェクトフォルダ
+- https://github.com/ryomuk/EMUZ80-4004/src/demo/calc : 電卓のデモプログラム
 
 ## 動画
 Youtubeで関連動画を公開しています．
