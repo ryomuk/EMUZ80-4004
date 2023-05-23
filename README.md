@@ -12,9 +12,9 @@ This document is written mostly in Japanese. If necessary, please use a translat
 プログラムメモリ領域のRAMは実装しておらず，データ用メモリ(4002)も2つしか搭載していないので，test4004よりも小規模なシステムになっています．デモプログラムとして電卓は動作しています．
 
 ## このレポジトリの内容
-- https://github.com/ryomuk/EMUZ80-4004/hardware/rev0.1 : KiCad 7用のファイル一式
-- https://github.com/ryomuk/EMUZ80-4004/src/PIC/emuz80_4004.X : MPLAB IDE用のプロジェクトフォルダ
-- https://github.com/ryomuk/EMUZ80-4004/src/demo/calc : 電卓のデモプログラム
+- hardware/rev0.1 : KiCad 7用のファイル一式
+- src/PIC/emuz80_4004.X : MPLAB IDE用のプロジェクトフォルダ
+- src/demo/calc : 電卓のデモプログラム
 
 ## 動画
 Youtubeで関連動画を公開しています．
