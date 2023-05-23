@@ -34,6 +34,7 @@ Youtubeで関連動画を公開しています．
 - satoshiokue, [EMUZ80-6502](https://github.com/satoshiokue/EMUZ80-6502)． 他，各種メザニンボード
 - Gazelle, [EMUZ80用ファームウェア](https://drive.google.com/drive/folders/1NaIIpzsUY3lptekcrJjwyvWTBNHIjUf1)
 - kanpapa, [emu1802](https://github.com/kanpapa/emu1802)
+- yyhayami, [emuz80_yyhayami](https://github.com/yyhayami/emuz80_yyhayami)
 
 ## 更新履歴
 - 2023/5/23: 初版公開
